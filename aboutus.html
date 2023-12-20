@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>About Us</title>  
+</head>
+
+<body class="p-4 bg-gray-100 md:p-10">
+    <header class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 items-center mb-4">
+        <div class="flex flex-row items-center">
+            <img src="./asset/Rectangle 22.svg" alt="" class="w-8 h-8 md:w-10 md:h-10 lg:w-16 lg:h-16 ml-2">
+            <h1 class="text-xl md:text-2xl lg:text-4xl ml-2">DeskSync</h1>
+        </div>
+
+        <div class="flex flex-row items-center justify-end  sm:flex flex-row md:col-span-1">
+            <button class="md:hidden text-xl pr-2.5" id="burger" onclick="toggleMenu()">☰</button>
+            <nav id="navMenu" class="hidden md:flex flex-row items-center space-x-4">
+                <a href="#" class="text-lg md:text-xl lg:text-2xl hover:bg-gray-400 transition duration-300">Home</a>
+                <button
+                    class="border-2 border-gray-500 bg-gray-300 rounded-lg p-2 w-24 hover:bg-gray-400 transition duration-300">Go
+                    Back</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="pt-10">
+        <div class="">
+            <h1 class="text-4xl md:text-6xl mb-4 font-bold">About Us</h1>
+            <p class="mb-4 text-lg">“Enabling Seamless Transition with DeskSync towards a Future of Flexible Workspaces”
+            </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4 pt-4">
+            <div class="flex flex-col gap-4 pt-4">
+                <h2 class="font-bold text-4xl ">Our Vision</h2>
+                <p class="bg-gray-200 p-9 rounded-2xl h-64 overflow-y-auto">In envisioning the future of workplace adaptability, our project
+                    seeks to pioneer a transformative solution for eMachine, encapsulating the essence of a dynamic and
+                    flexible work environment. We aspire to develop the Hot Desk Booking System as a catalyst, seamlessly
+                    bridging the gap between remote work and the traditional office setting as the solution to encourage
+                    the return of the employees to the office.
+                </p>
+            </div>
+
+            <div class="flex flex-col gap-4 pt-4">
+                <h2 class="font-bold text-4xl">Our Story</h2>
+                <div id="scrollContainer" class="bg-gray-200 p-10 rounded-2xl flex flex-col gap-4 h-64 overflow-y-auto  ">
+                <p class="opacity-100 transition-opacity">
+                        The global outbreak of the COVID-19 pandemic in 2019 reshaped the landscape of how organizations operate,
+                        challenging conventional workplace norms. As a response to the evolving needs of businesses, eMachine, an
+                        Australian-based organization, is seeking a Hot Desk Booking System to facilitate the gradual return of
+                        employees to the office. Our team, composed of third-year students in the BS Information Systems program, is
+                        enthusiastic about seizing this opportunity to contribute to the real-world application of our skills and expand
+                        our expertise.
+                    </p>
+                
+                    <p class="opacity-100 transition-opacity">
+                        While acknowledging that our team may not be seasoned experts in the specific domain, we are committed to
+                        leveraging our academic knowledge, innovative thinking, and the desire to learn swiftly. We see this project as
+                        an invaluable chance to bridge the gap between theory and practice, demonstrating our adaptability and eagerness
+                        to develop the necessary skills for success. Our interdisciplinary backgrounds bring diverse perspectives that
+                        can foster creative solutions and agile problem-solving.
+                    </p>
+                
+                    <p class="opacity-100 transition-opacity">
+                        In summary, while we may not possess extensive industry experience, our team is eager, adaptable, and committed
+                        to delivering a Hot Desk Booking System that aligns with eMachine's vision. We view this opportunity as a
+                        platform to enhance our skills, contribute meaningfully, and establish a foundation for future success. We are
+                        confident that our passion for learning and dedication to the project will result in a successful partnership
+                        between eMachine and our team.
+                    </p>
+                </div>
+                
+            </div>
+            
+        
+            
+        </div>
+        
+
+         <div class="pt-10">
+            <h2 class="font-bold text-4xl text-center">Creators</h2>
+
+            <div class="grid grid-cols-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 pt-10">
+              
+                    <div class="flex flex-col bg-white shadow-lg items-center p-4">
+                        <img src="./asset/julie.jpg" alt="" class="creatorpic w-52 h-52 object-cover sm:object-cover mb-4">
+                        <h3 class="text-center text-black font-bold">Julie Rose Oyong</h3>
+                        <h4 class="text-center text-black">Project Manager</h4>
+                    </div>
+                
+                    <div class="flex flex-col bg-white shadow-lg items-center p-4">
+                        <img src="./asset/rachelle.jpg" alt="" class="creatorpic w-52 h-52 object-cover mb-4">
+                        <h3 class="text-center text-black font-bold">Rachelle Faulo</h3>
+                        <h4 class="text-center text-black">Business Analyst/Front-End Developer</h4>
+                    </div>
+                
+                    <div class="flex flex-col bg-white shadow-lg items-center p-4">
+                        <img src="./asset/Kurtd.jpg" alt="" class="creatorpic w-52 h-52 object-cover mb-4">
+                        <h3 class="text-center text-black font-bold">Kurtd Daniel Bigtas</h3>
+                        <h4 class="text-center text-black">Solutions Architect/Full-Stack Developer</h4>
+                    </div>
+                
+                    <div class="flex flex-col bg-white shadow-lg items-center p-4">
+                        <img src="/asset/andrey.jpg" alt="" class="creatorpic w-52 h-52 object-cover mb-4">
+                        <h3 class="text-center text-black font-bold">Andrey Garcia</h3>
+                        <h4 class="text-center text-black">User Experience Designer</h4>
+                    </div>
+           
+           
+                <div class="flex flex-col bg-white shadow-lg items-center  sm:items-center p-4">
+                    <img src="./asset/jericho.jpg" alt="" class="creatorpic w-52 h-52 object-cover mb-4">
+                    <h3 class="text-center text-black font-bold">Jericho Borromeo</h3>
+                    <h4 class="text-center text-black">User Interface Designer</h4>
+                </div>
+    
+                <div class="flex flex-col bg-white shadow-lg items-center sm:items-center p-4">
+                    <img src="./asset/rizabel.JPG" alt="" class="creatorpic w-52 h-52 object-cover mb-4">
+                    <h3 class="text-center text-black font-bold">Rizabel Anne Pili</h3>
+                    <h4 class="text-center text-black">QA/Content Manager/Front-End Developer</h4>
+                </div>
+            
+           </div> 
+       </div>
+     </section>
+
+
+     <script>
+
+        const scrollContainer = document.getElementById('scrollContainer');
+
+        window.addEventListener('scroll', () => {
+            const scrollPosition = window.scrollY;
+            const elementOffset = scrollContainer.offsetTop;
+
+            if (scrollPosition > elementOffset) {
+                // Make the hidden paragraphs visible
+                scrollContainer.querySelectorAll('.opacity-0').forEach(element => {
+                    element.classList.remove('opacity-0');
+                    element.classList.add('opacity-100');
+                });
+            }
+        });
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('hidden');
+        }
+    </script>
+        
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Terms & Conditions</title>
+</head>
+
+<body class="p-4 md:p-10">
+    <header class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 items-center mb-4">
+        <div class="flex flex-row items-center">
+            <img src="./asset/Rectangle 22.svg" alt="" class="w-8 h-8 md:w-10 md:h-10 lg:w-16 lg:h-16 ml-2"> 
+            <h1 class="text-xl md:text-2xl lg:text-4xl ml-2">DeskSync</h1>
+        </div>
+
+        <div class="flex flex-row items-center justify-end md:col-span-1">
+            
+            <button class="md:hidden text-xl pr-2.5" id="burger" onclick="toggleMenu()">☰</button> 
+            <nav id="navMenu" class="hidden md:flex flex-row items-center space-x-4">
+                <a href="#" class="text-lg md:text-xl lg:text-2xl">Home</a>
+                <button class="border-2 border-gray-500 bg-gray-300 rounded-lg w-24 p-2 hover:bg-gray-400 transition duration-300">Go Back</button> <!-- Adjusted button size -->
+            </nav>
+        </div>
+    </header>
+
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 m-10 pt-4 md:pt-10">
+        <div>
+            <h1 class="text-4xl font-bold md:text-6xl mb-4">TERMS AND CONDITIONS</h1>
+            <p class="mb-4">Welcome to DeskSync! These Terms and Conditions ("Agreement") govern your use of the DeskSync
+                platform and services. Please read these terms carefully before accessing or using our platform. By using
+                DeskSync, you agree to be bound by the terms and conditions outlined below. If you do not agree to these
+                terms, please refrain from using DeskSync. This Agreement is a legally binding contract between you and
+                DeskSync, outlining your rights and responsibilities when using our services. Thank you for choosing
+                DeskSync.</p>
+                <button class="border-2 border-gray-500 bg-gray-300 rounded-lg p-2 hover:bg-gray-400 transition duration-300">Learn More</button>
+        </div>
+
+        <div>
+            <h3 class="text-2xl font-semibold mb-4">List of Conditions and Terms</h3>
+            <div>
+                <h2 class="summary bg-white font-medium shadow-lg shadow-grey-500/50 text-lg p-7 cursor-pointer"
+                    onclick="toggleDropdown('term1')">Acceptance of Terms
+                </h2>
+                <div class="hidden md:block bg-white shadow-lg shadow-grey-500/50 p-7" id="term1">
+                    By accessing or using DeskSync, you agree to comply with and be bound by these terms and conditions. If
+                    you do not agree with any part of these terms, you may not use the Desync platform.
+                </div>
+            </div>
+
+            <div class="pt-4">
+                <h2 class="summary bg-white font-medium shadow-lg shadow-grey-500/50 text-lg p-7 cursor-pointer"
+                    onclick="toggleDropdown('term2')">Booking and Usage
+                </h2>
+                <div class="hidden md:block bg-white shadow-lg shadow-grey-500/50 p-7" id="term2">
+                    The DeskSync offers users the convenience of reserving shared workspace areas for specific time
+                    periods. During the booking process, users are required to adhere to the terms and conditions
+                    outlined for the service. It is crucial for users to responsibly manage their reservations by
+                    respecting the specified booking durations and promptly vacating the hot desk at the conclusion of
+                    their reserved time. This ensures a smooth and efficient experience for all users of the shared
+                    workspace, fostering a collaborative and respectful environment.
+
+                </div>
+            </div>
+
+            <div class="pt-4">
+                <h2 class="summary bg-white font-medium shadow-lg shadow-grey-500/50 text-lg p-7 cursor-pointer"
+                    onclick="toggleDropdown('term3')">User Conduct
+                </h2>
+                <div class="hidden md:block bg-white shadow-lg shadow-grey-500/50 p-7" id="term3">
+                    Users of the DeskSync expressly agree not to utilize the service for any unlawful purposes or
+                    engage in activities that contravene the established terms. It is imperative that users conduct
+                    themselves with professionalism and respect when utilizing the hot desk facilities. By adhering to
+                    these principles, users contribute to maintaining a positive and collaborative atmosphere within
+                    the shared workspace, fostering an environment conducive to productivity and mutual consideration.
+
+                </div>
+            </div>
+
+            <div class="pt-4">
+                <h2 class="summary bg-white font-medium shadow-lg shadow-grey-500/50 text-lg p-7 cursor-pointer"
+                    onclick="toggleDropdown('term4')">Reservation and Cancellation
+
+                </h2>
+                <div class="hidden md:block bg-white shadow-lg shadow-grey-500/50 p-7" id="term4">
+                    Users have the option to reserve a hot desk in advance, contingent upon availability.
+                    During the booking process, along with cancellation policies, will be clearly outlined. 
+                    This ensures transparency and informs users about the conditions associated with canceling
+                     a hot desk reservation.
+                </div>
+            </div>
+
+            <div class="pt-4">
+                <h2 class="summary bg-white font-medium shadow-lg shadow-grey-500/50 text-lg p-7 cursor-pointer"
+                    onclick="toggleDropdown('term5')">Privacy and Data Security
+
+                </h2>
+                <div class="hidden md:block bg-white shadow-lg shadow-grey-500/50 p-7" id="term5">
+                    Your utilization of DeskSync is additionally regulated by our Privacy Policy; 
+                    you can find the details on how we collect, use, and safeguard your personal information 
+                    by following this [link to the privacy policy].
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-4 pt-4">
+                <h2 class="summary bg-white font-medium shadow-lg shadow-grey-500/50 text-lg p-7 cursor-pointer"
+                    onclick="toggleDropdown('term6')">Facility Rules and Regulations
+
+                </h2>
+                <div class="hidden md:block bg-white shadow-lg shadow-grey-500/50 p-7" id="term6">
+                    Users utilizing hot desk facilities are required to adhere diligently to the rules
+                    and regulations established by the facility where the hot desk is situated. 
+                    This commitment to compliance is essential for maintaining a conducive and respectful
+                    working environment. It is crucial to recognize that any failure to adhere to these
+                    facility rules may lead to serious consequences, including the potential revocation
+                    of hot desk booking privileges. Consequently, users are encouraged to prioritize adherence 
+                    to regulations to ensure a positive and sustainable shared workspace experience.
+                </div>
+            </div>
+
+            <div class="pt-4">
+                <h2 class="summary bg-white font-medium shadow-lg shadow-grey-500/50 text-lg p-7 cursor-pointer"
+                    onclick="toggleDropdown('term7')">Limitation of Liability
+
+                </h2>
+                <div class="hidden md:block bg-white shadow-lg shadow-grey-500/50 p-7" id="term7">
+                    To the extent permitted by law, DeskSync shall not be liable for any direct, indirect,
+                    incidental, special, or consequential damages arising out of or in any way connected 
+                    with the use of the DeskSync
+                </div>
+            </div>
+
+            <div class="pt-4"> 
+                <h2 class="summary bg-white font-medium shadow-lg shadow-grey-500/50 text-lg p-7 cursor-pointer"
+                    onclick="toggleDropdown('term8')">Changes to Terms and Conditions
+
+                </h2>
+                <div class="hidden md:block bg-white shadow-lg shadow-grey-500/50 p-7" id="term8">
+                    DeskSync reserves the right to modify or update these terms and conditions at any time.
+                    Your continued use of the DeskSync after such changes constitutes acceptance of the updated terms.
+                </div>
+            </div>
+
+            <div class="pt-4">
+                <h2 class="summary bg-white font-medium shadow-lg shadow-grey-500/50 text-lg p-7 cursor-pointer"
+                    onclick="toggleDropdown('term9')">Data Protection and  Privacy Laws
+
+                </h2>
+                <div class="hidden md:block bg-white shadow-lg shadow-grey-500/50 p-7" id="term9">
+                    DeskSync typically involves the collection and processing of personal data.
+                    Laws such as the General Data Protection Regulation (GDPR) in the European Union or similar 
+                    data protection laws in other regions may apply to the handling of user data.
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <script>
+        function toggleDropdown(termId) {
+            var dropdown = document.getElementById(termId);
+            dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+        }
+
+        function toggleMenu() {
+            var navMenu = document.getElementById("navMenu");
+            navMenu.style.display = (navMenu.style.display === "block") ? "none" : "block";
+        }
+    </script>
+</body>
+
+</html>
